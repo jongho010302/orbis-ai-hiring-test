@@ -1,0 +1,25 @@
+.Container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.ArticleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.favoriteImg {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.favoriteImg:hover {
+  content: url('/heart_on.png');
+  cursor: pointer;
+  margin-left: 5px;
+}
